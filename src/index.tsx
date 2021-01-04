@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FormWithYup from './FormWithYup';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App />s */}
+    <FormWithYup/>
   </React.StrictMode>,
   document.getElementById('root')
 );
